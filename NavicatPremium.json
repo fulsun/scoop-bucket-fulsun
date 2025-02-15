@@ -1,0 +1,19 @@
+{
+    "url": "https://www.navicat.com.cn/download/direct-download?product=navicat_premium_cs_x64.exe",
+    "hash": "625f12cfe000150d1ac5d5dbd29c5ba7fd0d925505420ec5e5d01010dfae31e1",
+    "version": "16.3",
+   "innosetup": true,
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/kkzzhizhou/scoop-zapps/master/versions/NavicatPremium.latest",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://scoop-zapps.ziiyc.com/d/NavicatPremium/NavicatPremium-$version.7z"
+    },
+    "shortcuts": [
+        [
+            "navicat.exe",
+            "Navicat"
+        ]
+    ]
+}
